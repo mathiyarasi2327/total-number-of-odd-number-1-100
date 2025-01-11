@@ -1,0 +1,14 @@
+# total-number-of-odd-number-1-100
+public class CountOddNumbers {
+    public static void main(String[] args) {
+        int count = 0;
+
+        for (int i = 1; i <= 100; i += 2) { // Increment by 2 to get odd numbers
+            count++;
+        }
+
+        System.out.println("Total odd numbers from 1 to 100: " + count);
+    }
+}
+output:
+Total odd numbers from 1 to 100: 50
